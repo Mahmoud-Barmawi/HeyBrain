@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/css/all.min.css"> <!-- web fonts -->
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css"> <!-- bootstrap file-->
+    <link rel="stylesheet" href="aseets/css/main.css"> <!-- css file -->
+    <link rel="website icon" type="png" href="aseets/images/oie_l3RRDyBG7wo1.png">
+    <title>Online Courses - Learn Anything and Bulid Skills On Your Schedule | ...</title>
+</head>
+
+<body id="body">
+    <!-- loading screen -->
+    <div class="loading flex-column">
+        <span class="loader"></span>
+        <p style="border-radius: 20px; margin-top: 30px;letter-spacing: 15px; padding: 20px ;display: block; color: #f567b0; font-size:40px; text-align: center; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; background-color: #0f150f;">HeyBrain</p>
+    </div>
+
+    <div class="arrowup" style="transition: 1s; position: fixed; bottom: 20px; right: 20px; z-index: 7000;">
+        <i  style="font-size: 20px; width: 50px; height: 50px; line-height: 50px; text-align: center; background-color: #0f150f;  cursor: pointer; border-radius: 50%;" class="fa-solid fa-arrow-up"></i>
+    </div>
+    <div class="nav_hed " id="nav_head">
+        <div class="NAV">
+            <div class="nav_to_small_screen ">
+                <ul class="nav-links_small">
+                    <li><a href="#"><i class="fa-solid fa-house first"></i><span>Home</span></a></li>
+                    <li><a href=""><i class="fa-solid fa-table"></i> <span> Categories</span></a></li>
+                    <li><a href="aseets/html_pages/crud.html" target="_blank"><i class="fa-solid fa-chalkboard-user"></i> <span>Become An Instructor</span></a>
+                    </li>
+                    <li><a href="#"> <i class="fa-solid fa-right-to-bracket"></i> <span id="logg_btn">Login</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-user-plus"></i> <span id="ssgn_btn">Sign Up</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="circle"></div>
+        <nav class="navbar navs ">
+            <div class="container">
+                <button type="button" class="burger_line">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </button>
+
+                <div class="logo ">
+                    <a href="index.html" class="">
+                        <img src="aseets/images/oie_25224633Gdu9DMMu.png" alt="logo">
+                    </a>
+                </div>
+                <div class="cat-items text-start">
+                    <ul class="">
+                        <li>
+                            <a href="#" class="dev">
+                                <i class="fa-solid fa-laptop-code"></i>
+                                <span>Development</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-business-time"></i>
+                                <span>Business</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fas fa-pencil-ruler"></i>
+                                <span>Design</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa-solid fa-heart-pulse"></i>
+                                <span>Health& Fitness</span>
+                            </a>
+                        </li>
+                        <li class="last">
+                            <a href="#">
+                                <i class="fa-solid fa-hand-spock"></i>
+                                <span>Lifestyle</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="categories ">
+                        <i class="fas fa-th text-lg mr-3"></i>
+                        <a href="#">Categories</a>
+                    </div>
+                </div>
+                <form class="search d-flex ">
+                    <input class="" type="search" placeholder="Search for anything">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass mt-3"></i>
+                    </button>
+                </form>
+                <div class="instructor ">
+                    <a href="aseets/html_pages/crud.html" target="_blank">Become An Instructor</a>
+                </div>
+                <div class="log-sing d-flex align-items-center justify-content-center">
+                    <a class="log" id="logg_btnn" href="#">Login</a>
+                    <a class="sign" id="ssgn_btnn" href="#">SignUp</a>
+                </div>
+                <button class="border-0 bg-transparent display-4 close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </nav>
+
+        <header class="" id="header-sec">
+            <div class="container">
+                <div class="header-content">
+                    <div class="row">
+                        <div class="col-md-6 mt-3">
+                            <h1 class="head ">
+                                Build Skills On Your Schedule With HeyBrain
+                            </h1>
+                            <p class="mt-4">
+                                The Revolutionary New Online Learning Platform <br> For Students To Learn & Instructors
+                                To Host
+                                Their Courses
+                            </p>
+                            <a class="sign_free" href="">Sign Up For <strong>FREE</strong> </a>
+                        </div>
+                        <div class="col-md-6 image mt-5">
+                            <img src="https://heybrain.com/img/hey-brain-build-your-skills.svg" alt="image to boy he is svg and he has laptop and books">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+    </div>
+    <div class="div vh-100 w-100 position-absolute top-0">
+        <div id="overlayy" class="overlayy vh-100 w-100 ">
+            <div id="sign-up" class="sign-up position-absolute">
+                <button id="closs_btn" class="d-block ms-auto bg-transparent border-0"><i style="color: black !important; font-size: 15px; font-weight: bolder !important;" class="fa-solid fa-xmark"></i></button>
+                <h2 class="mb-3">Get Started. It's FREE!</h2>
+                <hr width="90%" class="m-auto" style="color: rgb(168, 169, 171); font-size: 1.1rem;">
+                <input type="text" name="" id="" placeholder="Name">
+                <input type="email" name="" class="mt-3" placeholder="Email" id="">
+                <input type="password" name="" id="" placeholder="Password*">
+                <div class="d-flex" style="width:90% !important; margin: auto;">
+                <span class="d-inline-block" ><input class="d-inline-block noch" type="checkbox">I’m in for emails with exciting discounts and personalized recommendations</span>
+                </div>
+                <button class="d-block mt-4 m-auto wi_btn">Sign Up</button>
+                <p>By signing up, you agree to our <b>Terms of Use</b> and <b>Privacy Policy</b>.</p>
+                <hr width="80%" class="m-auto" style="color: rgb(168, 169, 171); font-size: 1.1rem;">
+                <p>Already have an account?<b> Login here</b></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="div vh-100 w-100 position-absolute top-0 ">
+        <div id="overlay" class="overlay  vh-100 w-100">
+            <div id="sing-in" class="sing-in position-absolute">
+                <button id="clos_btn" class="d-block ms-auto bg-transparent border-0"><i style="color: black !important; font-size: 15px; font-weight: bolder !important;" class="fa-solid fa-xmark"></i></button>
+            <h2 class="mb-3">Login</h2>
+            <hr width="80%" class="m-auto" style="color: rgb(168, 169, 171); font-size: 1.1rem;">
+            <input type="email" name="" class="mt-3" placeholder="Email" id="">
+            <input type="password" name="" id="" placeholder="Password*">
+            <div class="d-flex justify-content-between align-items-center" style="width: 80%;margin: auto;">
+            <span class="d-inline-block">        <input class="d-inline-block noch" type="checkbox">            Remember Me</span>
+            <a href="">Forgot Your Password?</a>
+            </div>
+            <button class="d-block mt-4 m-auto wi_btn">Login</button>
+            <hr width="80%" class="m-auto" style="color: rgb(168, 169, 171); font-size: 1.1rem;">
+            <p>Don't have a HeyBrain account?<b> Sign Up Now.</b> </p>
+        </div>
+        </div>
+    </div>
+
+    <main>
+        
+    <div>
+        <div class="relative py-3 " id="relative">
+            <div class="containerR py-5">
+                <p class="p mt-3 ms-sm-4">Made With Love ♥</p>
+                <div class="row py-5 d-flex justify-content-center">
+    
+                    <div class="col-md-7 col-lg-7 col-sm-12 order-lg-0 order-md-0 order-1 para position-relative">
+                        <div class="position-relative">
+                            <div class="big-circle big-shadow left"></div>
+                            <div class="small-circle d-none d-md-none- d-lg-inline-block"></div>
+                            <div class="small-circle3 d-none d-md-none d-lg-inline-block"></div>
+                        </div>
+    
+                        <div class="row inner-row">
+                            <div class="col-sm-12 col-md-5 col-lg-4 divv div_1">
+                                <i class="fa-solid fa-laptop"></i>
+                                <h3>Online Courses</h3>
+                                <p>Be the best in your industry</p>
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4 divv div_2">
+                                <i class="fa-solid fa-infinity"></i>
+                                <h3>Lifetime Access</h3>
+                                <p class="secp">Access to your courses anywhere</p>
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-4 divv  div_3">
+                                <i class="fa-solid fa-chalkboard-user"></i>
+                                <h3>Top Instructors</h3>
+                                <p class="thidp">Learn from trusted gurus</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+    
+                    <div class="col-md-4  col-lg-4  col-sm-12 order-lg-1 order-md-1 order-0 hhhhh content-left mt-sm-1 ms-sm-4">
+                        <h2 class="">Learn Anywhere From Top Instructors</h2>
+                        <p>Advance your career, learn a new skill, get creative. HeyBrain is a marketplace for teaching,
+                            learning, and connecting students to the skills needed to succeed.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="crud_dev pb-5 mb5" id="crud_dev">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 ms-lg-4 ms-md-3 ms-sm-0">
+                    <div class="content">
+                        <div>
+                            <h2 class="ms-lg-5 ms-md-3 mt-5">Achieve Your Goals</h2>
+                            <p class="ms-lg-5 ms-md-3 mt-3">The revolutionary new online learning platform for students & instructors.</p></div>
+                        <div style="justify-content: space-between;" class="cat_div3 d-flex flex-lg-row flex-md-row flex-wrap flex-sm-row  flex-xxl-row flex-xl-row flex-column justify-content-md-between justify-content-sm-around justify-content-lg-start">
+                            <a href="#De" id="adevelopment" class="active ms-lg-5 ms-md-3 ms-2 mt-5 text-center ">
+                                Development
+                            </a>
+                            <a href="#De" id="adevelopment1" class="  ms-lg-5 ms-md-3 mt-5 text-center ">
+                                Business
+                            </a>
+                            <a href="#De" id="adesign" class="ms-lg-5 ms-md-3 mt-5  text-center  ">
+                                Design
+                            </a>
+                            <a href="#He" id="ahealth_fitness" class="ms-lg-5 ms-md-3 mt-5  text-center ">
+                                Health & Fitness
+                            </a>
+                            <a href="#le" id="alifestyle" class="ms-lg-5 ms-md-3 mt-5  text-center ">
+                                Lifestyle
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-3 ms-3 position-relative d-lg-block d-md-block d-xl-block d-xxl-block d-none d-md-block">
+                    <div class="icons position-absolute py-3">
+                        <div class="onei"><i class="fa-solid fa-heart-pulse"></i></div>
+                        <div class="twoi"><i class="fa-solid fa-chalkboard-user"></i></div>
+                        <div class="threei"><i class="fa-solid fa-pen-ruler"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-flex flex-wrap mtcat  ms-xxl-5  ms-xl-5 ms-lg-5  ms-md-4 ms-sm-4 ms-3  " id="development">
+                                    
+            </div>
+            <div class=" d-flex flex-wrap mtcat  ms-xxl-5 ms-xl-5 ms-lg-5 ms-md-4 ms-sm-4  ms-3  cus_clas " id="Business">
+                
+            </div>
+            <div class=" d-flex flex-wrap mtcat ms-xxl-5  ms-xl-5 ms-lg-5 ms-md-4 ms-sm-4  ms-3 cus_clas " id="Design">
+                
+            </div>
+            <div class=" d-flex flex-wrap mtcat ms-xxl-5 ms-xl-5 ms-lg-5  ms-md-4 ms-sm-4 ms-3  cus_clas " id="Health_Fitness">
+                
+            </div>
+            <div class=" d-flex flex-wrap mtcat ms-xxl-5 ms-xl-5 ms-lg-5  ms-md-4 ms-sm-4 ms-3  cus_clas " id="Lifestyle">
+                
+            </div> 
+        </div>
+    </div>
+
+    <div>
+        <div class="sec_4th py-4 " id="sec_4t">
+            <div class="rect"></div>
+            <div class="containerR">
+                <div class="row">
+                    <div class="col-lg-6 mb-4">
+                        <div class="tit">
+                            <h2>A Trusted Marketplace With High-Quality Content</h2>
+                        </div>
+                        <div class="par">
+                            <p>For many years, we knew that there must be a better way to learn. Our team has built online
+                                platforms and mobile apps over the last decade, and we wanted to devote our energy,
+                                creativity and development to deliver the top e-learning, online course delivery and quality
+                                marketplace out there.</p>
+                        </div>
+    
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tit">
+                            <h2>Focus On Teaching With Passion And Leave The Tech Part To Us</h2>
+                        </div>
+                        <div class="par">
+                            <p>Our ‘aha’ moment was the realization that there’s a better way and our - team felt compelled
+                                to build it. With HeyBrain, teaching and learning is simple! Ditch the -logistical nightmare
+                                of in-person classes; and learn at your own pace, from anywhere. Online learning is the
+                                future.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    
+    </div>
+    <!-- /* end 4th section */ -->
+
+
+
+    <!-- /* start 5th section */ -->
+    <div class="sec_5th t " id="sec_5t">
+        <div class="big-circle big-shadoww left"></div>
+
+        <div class="containerR overflow-x-hidden">
+            <div class="row d-flex  justify-content-evenly align-items-stretch">
+                <div class="conmt col-lg-5  ms-0 order-2 order-lg-1">
+                    <div class="titt">
+                        <h2>Access A Rich Selection Of Experts From Anywhere In The World.</h2>
+                    </div>
+                    <div class="parr">
+                        <p>Forget the limitations of learning from experts based on geographical location. Open up the
+                            marketplace to the top industry leading experts in the field teaching you from anywhere -
+                            from your smartphone, from your laptop, while you’re in the comfort of your home or
+                            workspace.</p>
+                    </div>
+
+                </div>
+                <div class="ssvg col-lg-7   order-1 order-lg-2 ">
+                    <img src="aseets/images/hey-brain-from-anywhere-in-the-world.svg" alt="We are located everywhere in the world">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- /* end 5th section */ -->
+
+
+    <!-- /* start 6th section */ -->
+    <section class="sec_6th  " id="sec_6t">
+        <div class="row d-flex">
+            <div class="col-md-5  d-lg-block d-md-block d-xl-block d-xxl-block d-none doll ">
+                <div class="ddiv">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    <p>High Skills</p>
+                    <p class="secpra">High Income</p>
+                </div>
+            </div>
+            <div class="col-md-7 coll ">
+                <div class="sec_ddiv">
+                    <h2>Develop New Skills Faster!</h2>
+                    <p>HeyBrain allows individuals and students to maximize productivity, embrace online learning and
+                        learn new skills all while winning in a digital marketplace with premium courses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /* end 6th section */ -->
+
+
+    <!-- /* start 5th section */ -->
+    <section class="sec_5th  position-relative" id="sec_5t">
+
+        <div class="containerR overflow-x-hidden">
+            <div class="row d-flex  justify-content-around align-items-stretch">
+                <div class="conmt col-lg-5  ms-0 mt-0 order-2 order-lg-1">
+                    <div class="titt">
+                        <h2>Sharing Knowledge & The Freedom To Learn New Skills</h2>
+                    </div>
+                    <div class="parr">
+                        <p>Our team builds and support builds and supports products we believe in. It’s incredibly
+                            rewarding to see the broader community react to HeyBrain, describing how the platform has
+                            helped them achieve their own goals with learning online and advancing their career paths.
+                        </p>
+                        <p>Helping, advancing and providing opportunities to all. HeyBrain, what do you want to learn
+                            today?</p>
+                    </div>
+
+                </div>
+                <div class="ssvg col-lg-7  position-relative  order-1 order-lg-2 mt-2 custom_sv ">
+                    <img src="aseets/images/hey-brain-freedom-to-learn-new-skills.svg" alt="easy and freedom in learn with us">
+                </div>
+            </div>
+        </div>
+        <div class="pink"></div>
+
+    </section>
+
+    <!-- /* end 5th section */ -->
+
+
+    <section class="specifications" id="specifications">
+        <div class="row d-flex justify-content-center first-content ">
+            <div class="col-md-5 sv">
+                <div class="svg">
+                    <img src="aseets/images/hey-brain-beginner-to-expert.svg" width="80%" style="margin-left: 4.8rem;" class=" mt-2" alt="start with you from 0 to arrive expert position">
+                </div>
+            </div>
+            <div class="col-md-5 ms ">
+                <h2>Go From Beginner To Expert In Record Time</h2>
+                <p>Explore and learn the latest skills from your smartphone or on the web. Study any topic, anytime.
+                    Learn on your schedule from expert-led courses.</p>
+                    <a class="sign_free" href="">Sign Up For <strong>FREE</strong> </a>
+                </div>
+        </div>
+        <div class="row d-flex justify-content-center text-center sec-content flex-column flex-lg-row flex-md-row ">
+            <div class="col-md-3 boxz">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+                <div>
+                    <h3>Growing Marketplace</h3>
+                <p>With courses from industry leading instructors</p>
+                </div>
+            </div>
+            <div class="col-md-3 boxz">
+                <i class="fa-regular fa-thumbs-up"></i>
+                <div>
+                    <h3>Simple And Gamified</h3>
+                <p>App that makes learning accessible and fun</p>
+                </div>
+            </div>
+            <div class="col-md-3 boxz">
+                <i class="fa-solid fa-mobile"></i>
+                <div>
+                    <h3>Learn On The Go</h3>
+                <p>With the HeyBrain web and mobile app</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="catee " id="catee">
+
+        <div class="containerw">
+            <div class="row d-flex justify-content-evenly">
+                <div class="col-md-5 col-lg-5  d-flex flex-column justify-content-center  order-1 order-lg-0 order-md-0">
+                    <h2>
+                        Learn From Leading Instructors And Experts.
+                    </h2>
+                    <p>Build skills from online courses and start streaming video courses today from industry experts in
+                        a variety of subjects like marketing, business, personal development, health and more.</p>
+                </div>
+                <div class="col-md-7 col-lg-7 w-50 fath_img wi_small order-0 order-lg-1 order-md-1 position-relative">
+                    <img src="aseets/images/hey-brain-learn-from-leading-instructors.svg" width="40%" alt="lear from professional instructor">
+                    <div class="row d-flex flex-row  overflow-hidden position-absolute justify-content-end  h-100 catego">
+                        <div class="col-md-5 d-flex flex-column flex-11 mb-0">
+                            <div class="mb">
+                                <a href="#">
+                                    <i class="fa-solid fa-laptop-code"></i>
+                                    <span>Development</span>
+                                </a>
+                            </div>
+                            <div class="mb">
+                                <a href="#">
+                                    <i class="fa-solid fa-business-time"></i>
+                                    <span>Business</span>
+                                </a>
+                            </div>
+                            <div class="mb">
+                                <a href="">
+                                    <i class="fas fa-pencil-ruler"></i>
+                                    <span>Design</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-5 d-flex flex-column flex-22  mtt ">
+                            <div class="mb">
+                                <a href="#">
+                                    <i class="fa-solid fa-heart-pulse"></i>
+                                    <span>Health& Fitness</span>
+                                </a>
+                            </div>
+                            <div class="mb">
+                                <a href="#">
+                                    <i class="fa-solid fa-hand-spock"></i>
+                                    <span>Lifestyle</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="new10th">
+        <div class="content position-relative d-flex">
+            <div class="crc3"></div>
+            <div class="inner_content position-absolute ">
+                <div class="d-flex vv  row ">
+                    <div class="col-md-4 imgs">
+                        <img  src="aseets/images/hey-brain-google-play.svg" class="mb-2 googlePlay" alt="google play icon" style="cursor: pointer;">
+                        <img src="aseets/images/hey-brain-app-store.svg" alt="app-store icon " class="apple" style="cursor: pointer;">
+                    </div>
+                    <div class="col-md-6 ti_pra">
+                        <h2>Learn Anywhere With The HeyBrain App</h2>
+                        <p>Learn on your schedule while mastering skills with in-depth learning. Learn at your own pace and apply what you learn with quizzes and course resources. Take the next step toward your professional and personal goals with HeyBrain.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    </main>
+
+
+    <footer class="footer position-relative ">
+        <div class="container overflow-hidden">
+            <div class="row top_row">
+                <div class="col-md-6 in-div">
+                    <h2>Become An Instructor</h2>
+                    <p>Earn money, create video courses and inspire students. HeyBrain provides the tools to merchant and deliver the content, while you get to focus on your courses, and expanding your reach.</p>
+                    <button> <a href="#">Start Teaching <strong>Today</strong></a></button>
+                </div>
+                <div class="col-md-4 ms-auto in-diiv ">
+                    <img src="aseets/images/hey-brain-beginner-to-expert.svg" alt="start with you from 0 to arrive expert position">
+                </div>
+            </div>
+            <div class="row lower_row d-flex  justify-content-around overflow-hidden ">
+                
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <h3>Explore HeyBrain</h3>
+                    <ul>
+                        <li class="ma_S"><a href="">Sign Up</a></li>
+                        <li class="ma_S"><a href="aseets/html_pages/crud.html" target="_blank">Become An Instructor</a></li>
+                        <li class="ma_S"><a href="">Blog</a></li>
+                        <li class="ma_S"><a href="">HeyBrain App</a></li>
+                        <li class="ma_S"><a href="">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <h3>Let Us Help</h3>
+                    <ul class="ms-0 ">
+                        <li class="ma_S"><a href="">Help And Support</a></li>
+                        <li class="ma_S"><a href="">Impact</a></li>
+                        <li class="ma_S"><a href="">Terms</a></li>
+                        <li class="ma_S"><a href="">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 ">
+                    <h3 style="font-size: 20px;">Get The HeyBrain Mobile App</h3>
+                    <div class="d-lg-flex d-md-flex">
+                    <select name="state" id="state" class="rounded-pill">
+                        <option value="USA">+1</option>
+                        <option value="">+320</option>
+                        <option value="">+970</option>
+                        <option value="">+13</option>
+                        <option value="">+33</option>
+                        <option value="">+67</option>
+                        <option value="">+890</option>
+                        <option value="">+008</option>
+                        <option value="">+44</option>
+                        <option value="">+61</option>
+                    </select>
+                    
+                        <input type="search" name="" placeholder="Your Mobile Phone Number" style="width: 60%;" class="rounded-pill pn" id="">
+                        <input type="button" class="rounded-pill ms-5 send p-4 pt-2 pb-2 " style="background-color: #f567b0;" value="Send">
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-around mt-4">
+                <div class="col-6 ">
+                    <img src="aseets/images/logo-white.png" width="22%" class="lom ms-5" alt="logo to our website">
+                </div>
+                <div class="col-6 lom2 text-end">Copyright © 2023 HeyTech LLC</div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="aseets/js/main.js"></script>
+    <script src="vendor/js/bootstrap.bundle.min.js"></script> <!-- bootstrap js file -->
+    <script src="vendor/js/main.js"></script> <!-- javaScript file -->
+</body>
+
+</html>
